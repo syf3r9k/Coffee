@@ -1,7 +1,2 @@
-/*
-File for test)
-*/
-
 case int a = 5
-
-pr!('Hello, World!')
+pr!('Hello, {a}!')

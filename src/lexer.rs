@@ -18,7 +18,8 @@ pub fn Lexer(code: String) -> Vec<String> {
                 }
             }
             //println!("NEW TOKEN NAME: {}", &code[interval..interval + name]);
-            tokens.push("namevar".to_string());
+            let n = &code[interval..interval + name];
+            tokens.push(n.to_string());
 
             interval += name + 3;
 
@@ -37,7 +38,7 @@ pub fn Lexer(code: String) -> Vec<String> {
                     i.to_string() == "9" ||
                     i.to_string() == "0" {
                     //println!("NEW TOKEN NUMBER: {}", i);
-                    tokens.push("number".to_string());
+                    tokens.push(i.to_string());
                 } else if i.to_string() == "+" ||
                     i.to_string() == "-" ||
                     i.to_string() == "*" ||
