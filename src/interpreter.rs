@@ -12,7 +12,7 @@ pub fn Interpreter(instruct: Vec<Vec<String>>) {
                 if i.len() > 1 {
                     println!("{}", i[1]);
                 } else {
-                    eprintln!("Error: Missing argument for 'print' command");
+                    eprintln!("Error: Missing argument");
                 }
             }else if i[0] == "var" {
                 if i.len() > 1 {
