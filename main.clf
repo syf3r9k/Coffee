@@ -1,4 +1,3 @@
-prl!("Hello, World!")
-prl!("Hello, World!")
-prl!("Hello, World!")
-prl!("Hello, World!")
+case int a = 5
+
+pr!('Hello, World!')
