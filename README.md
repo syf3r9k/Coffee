@@ -42,7 +42,7 @@
 ## 📖 Пример кода
 
 ```coffee
-// Пример кода на Coffee
+/- Пример кода на Coffee! -/
 case int age = 18
 case float weight = 55.5
 case str name = 'Coffee'
